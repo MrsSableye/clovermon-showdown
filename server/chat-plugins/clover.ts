@@ -40,7 +40,10 @@ export const commands: Chat.ChatCommands = {
 		},
 		ilovesneed() {
 			this.sendReplyBox('Chuck');
-		}
+		},
+		ilovechuck() {
+			this.sendReplyBox('Sneed');
+		},
 	},
 	cloverhelp() {
 		this.runBroadcast();
