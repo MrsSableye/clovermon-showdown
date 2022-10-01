@@ -38,6 +38,9 @@ export const commands: Chat.ChatCommands = {
 				'<p>Daily usage stats for most Clovermon Showdown formats can be found on our <a href="https://clover.weedl.es/usage/">usage site</a>.</p>'
 			);
 		},
+		ilovesneed() {
+			this.sendReplyBox('Chuck');
+		}
 	},
 	cloverhelp() {
 		this.runBroadcast();
